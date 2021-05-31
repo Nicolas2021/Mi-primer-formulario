@@ -1,0 +1,78 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+/*Primera parte*/
+
+body{
+    background-color: black;
+}
+
+.cuerpo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    background-color: #222;
+    margin: 50px 150px;
+    padding: 100px;
+}
+
+.formpadre {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+
+.search{
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border:none;
+    border-bottom: 3px solid #1c7;
+    background: transparent;
+    color: white;
+}
+
+.search:focus {
+    background: linear-gradient(to bottom, transparent, #111);
+    outline: none;
+}
+
+.section textarea{
+    min-height: 140px;
+}
+
+.formpadre input[type="submit"] {
+    background-color: #094;
+    border-bottom: none;
+}
+
+.formpadre input[type="submit"]:hover {
+    background-color: #062;
+    border-bottom: none;
+}
+/*foto*/
+
+.cuerpodelaimagen{
+    flex: 1;
+    display: flex;
+}
+
+.contenedorimagen{
+    background-color: #fff;
+    border-radius: 50%;
+}
+.cuerpodelaimagen img{
+    height: 230px;
+    width: 230px;
+    margin: 50px;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.cuerpodelaimagen div{
+    margin: auto;
+}
